@@ -1,0 +1,27 @@
+button[class$="-button"]{
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+    border-top-left-radius:50%;
+    border-top-right-radius:50%;
+    font-size: 18pt;
+    line-height: 100px;
+    height:100px;
+    width:100px;
+    border: 0ch;
+    margin-left: 13px;
+    margin-right: 13px;
+    margin-bottom: 20px;
+}
+.stop-button{
+    display: none;
+}
+.center{
+    text-align: center;
+    margin: auto;
+}
+span[class^="timer-"]{
+    font-size: 60pt;
+}
+.timer-sum{
+    margin-left: 0%;
+}
