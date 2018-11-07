@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Stop Watch by Chuanxiu Xiong</title>
-    <link rel="stylesheet" type="text/css" href="stop-watch.css" />
+    <link rel="stylesheet" type="text/css" href="css/stop-watch.css" />
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-4.0.0.css" />
     <script src="js/jquery-3.3.1.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous">
-    <script src='stop-watch.js'></script>
+    <script src='js/stop-watch.js'></script>
 </head>
 
 <body>
@@ -15,7 +15,7 @@
         <div>
             <div class="center">
                 <span class="timer-main">00:00:00</span>
-                <span class="timer-sub">.00</span>
+                <span class="timer-sub">.000</span>
             </div>
             <div class="center">
                 <button type="button" class="btn-success start-button">Start</button>
@@ -23,17 +23,17 @@
                 <button type="button" class="btn-primary reset-button">Reset</button>
 
             </div>
-            <table class="table table-striped main-table">
+            <table class="table table-striped main-table table bordered">
                 <thead class="thead-light">
                     <tr>
-                        <th scope="col">#</th>
-                        <th scope="col">Start Time</th>
-                        <th scope="col">Start Latitude</th>
-                        <th scope="col">Start Longtitude</th>
-                        <th scope="col">End Time</th>
-                        <th scope="col">End Latitude</th>
-                        <th scope="col">End Longtitude</th>
-                        <th scope="col">Time Elapsed</th>
+                        <th scope="col" class="center">#</th>
+                        <th scope="col" class="long center">Start <br>Time and Date</th>
+                        <th scope="col" class="center">Start Latitude</th>
+                        <th scope="col" class="center">Start Longtitude</th>
+                        <th scope="col" class="long center">End <br> Time and Date</th>
+                        <th scope="col" class="center">End Latitude</th>
+                        <th scope="col" class="center">End Longtitude</th>
+                        <th scope="col" class="center">Time Elapsed</th>
                     </tr>
                 </thead>
                 <tbody class='table-body'>

@@ -19,9 +19,12 @@ button[class$="-button"]{
     text-align: center;
     margin: auto;
 }
-span[class^="timer-"]{
+.timer-main{
     font-size: 60pt;
 }
-.timer-sum{
-    margin-left: 0%;
+.timer-sub{
+    font-size: 30pt;
+}
+.long{
+    width: 30%;
 }
