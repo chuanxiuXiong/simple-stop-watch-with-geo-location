@@ -1,4 +1,4 @@
-# simple-stop-watch-with-geo-location
+# A Stopwatch Web App with Geolocation
 
 ## Table of Contents
 - [Introduction](#introduction)
